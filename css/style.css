@@ -217,6 +217,7 @@ menu,
 ol,
 ul {
   margin: 1em 0;
+  list-style: none;
 }
 dd {
   margin: 0 0 0 40px;
@@ -357,7 +358,7 @@ table {
 }
 .inner {
   padding-top: 70px;
-  margin-bottom: 110px;
+  margin-bottom: 50px;
 }
 /* ==========================================================================Navigation========================================================================== */
 .menu-wrap a {
@@ -1073,10 +1074,12 @@ ul.social-buttons li:last-child {
   margin-left: auto;
   margin-right: auto;
 }
-.up-btn:hover,
-.up-btn:focus {
+.up-btn:hover {
   color: #fff;
   background: #72aefc;
+}
+.up-btn:focus{
+  outline: 11px #72aefc;
 }
 .contact-details {
   margin: 70px 0;
